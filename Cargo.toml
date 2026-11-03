@@ -1,0 +1,15 @@
+[workspace]
+resolver = "3"
+members = ["api", "client", "declaration", "server"]
+# The Unit-owned host tests are separate workspaces.
+exclude = ["tests"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
