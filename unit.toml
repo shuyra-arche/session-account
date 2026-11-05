@@ -1,0 +1,44 @@
+schema = 1
+id = "account"
+
+[loader]
+image = "account"
+space = "user"
+args = []
+stack = 0
+
+[identity]
+aliases = ["anran"]
+grants = [12]
+
+[control]
+creation = "startup"
+requires = ["shell"]
+after = []
+ready = { signal = "9887014109901452468" }
+ending = "resident"
+
+[[control.construction]]
+unit = "shell"
+owner = { unit = "login" }
+identity = "selected"
+arguments = { min = 0, max = 64 }
+stack = { min = 0, max = 1048576 }
+max_image = 0
+
+[[operator.namespace]]
+key = "service"
+placement = "shared"
+path = "account"
+scope = "subtree"
+ops = 279
+permit = "bound"
+
+[[operator.namespace.bindings]]
+name = "create"
+mark = "16395409578496481784"
+view = 2
+permit = "bound"
+
+[supply]
+bindings = []
