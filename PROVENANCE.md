@@ -1,29 +1,6 @@
-# Provenance
+# Source attribution
 
-Original Source: https://github.com/anreonyr/sqware.git
-Frozen Source: `293c15fc97a9d9a4295810d10fe804e4cdec63c4`.
-
-Account owns declaration, API, typed client, server and Unit tests. The
-Session Cluster fixes this Unit repository as a Git submodule; Vanllia fixes the
-Cluster. Original Source composition, selected Deployment, Login adapter and
-AccountRig acceptance remain in Integration. The previously published Session
-snapshot6d27af19ee4f94de04bb644ac8fe78e8001e99e7 supplied the exact reviewed
-Account checkpoint; its history and earlier staging trees are retained.
-
-The standalone workspace adds no runtime mechanism. The Unit BUILD names
-server/Cargo.toml, package account-server, binary/image account, empty features,
-the original RV target/profile/default-feature choice. All original production
-function bodies, Request/codec quirks, interface identity, field order, owner/
-mark binding, authorization, replay/cancel/watermark/allocation ordering, limits,
-errors, lifetimes and waits remain. Types were split into one-type files during
-the earlier reviewed boundary adaptation. Its corrected20-byte test golden,
-usize fixture and TeamId import are retained; no assertion is weakened.
-
-The eight original pre-adaptation hashes below plus the public Source commit
-are reproducible independently of Root's private evidence. API4/configuration4,
-public Execution/Mold linker and real RV ELF validation have new standalone
-Unit gates; earlier Cluster-layout passes are not claimed as these new results.
-Actual Source SMP4/8 acceptance remains a later gate.
+Source: `anreonyr/sqware@293c15fc97a9d9a4295810d10fe804e4cdec63c4`.
 
 ## Original source-history authors
 
